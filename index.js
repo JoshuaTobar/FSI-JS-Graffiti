@@ -9,4 +9,7 @@ let dogName = document.querySelectorAll('.dog-name')
 for(let i = 0; i < dogName.length; i++) {
     dogName[i].style.textAlign = 'left'
 }
-let footer
+let footerColor = document.querySelector('.footer')
+footerColor.style.color = 'green'
+footerColor.style.borderStyle = 'solid'
+
